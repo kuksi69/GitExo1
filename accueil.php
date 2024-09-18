@@ -1,4 +1,1 @@
-<?php
-echo 'Nom : '.$_POST["nom"].'<br>';
-echo 'Prénom : ' .$_POST["prénom"].'<br>';
-?>
+Bonjour <?php echo $_POST["prenom"]." ".$_POST['nom']; ?>
